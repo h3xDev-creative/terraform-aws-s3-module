@@ -89,7 +89,7 @@ terraform test
 
 ## Authors
 
-- **Your Name / Your Org** - *Maintainer*
+- **James Vince** - *Maintainer*
 
 ---
 
