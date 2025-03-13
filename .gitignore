@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variables files with sensitive data
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore plan files
+*.tfplan
+
+# Ignore logs and temp files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Ignore test artifacts
+tests/.terraform_test_cache/
