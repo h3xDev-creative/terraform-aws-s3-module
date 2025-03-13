@@ -44,7 +44,7 @@ This module is licensed under the **GNU General Public License v2.0** (GPLv2). S
 
 ```hcl
 module "s3_bucket" {
-  source      = "git::https://github.com/your-org/terraform-aws-s3-module.git"
+  source      = "git::https://github.com/h3xDev-creative/terraform-aws-s3-module.git"
   bucket_name = "my-example-bucket"
   environment = "dev"
 
